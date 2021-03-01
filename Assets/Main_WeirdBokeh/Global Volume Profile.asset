@@ -1,0 +1,126 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-851621887952284617
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31394aa05878563408489d5c1688f3a0, type: 3}
+  m_Name: PathTracing
+  m_EditorClassIdentifier: 
+  active: 1
+  m_AdvancedMode: 0
+  enable:
+    m_OverrideState: 1
+    m_Value: 1
+  layerMask:
+    m_OverrideState: 1
+    m_Value:
+      serializedVersion: 2
+      m_Bits: 4294967295
+  maximumSamples:
+    m_OverrideState: 1
+    m_Value: 256
+    min: 1
+    max: 4096
+  minimumDepth:
+    m_OverrideState: 1
+    m_Value: 1
+    min: 1
+    max: 10
+  maximumDepth:
+    m_OverrideState: 1
+    m_Value: 4
+    min: 1
+    max: 10
+  maximumIntensity:
+    m_OverrideState: 1
+    m_Value: 10
+    min: 0
+    max: 100
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7fd9488000d3734a9e00ee676215985, type: 3}
+  m_Name: Global Volume Profile
+  m_EditorClassIdentifier: 
+  components:
+  - {fileID: -851621887952284617}
+--- !u!114 &1736423248160944828
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d877a03bef431a847adca8ab343db3e1, type: 3}
+  m_Name: RayTracingSettings
+  m_EditorClassIdentifier: 
+  active: 1
+  m_AdvancedMode: 0
+  rayBias:
+    m_OverrideState: 0
+    m_Value: 0.001
+    min: 0
+    max: 0.1
+  extendShadowCulling:
+    m_OverrideState: 0
+    m_Value: 0
+  extendCameraCulling:
+    m_OverrideState: 0
+    m_Value: 0
+  directionalShadowRayLength:
+    m_OverrideState: 0
+    m_Value: 1000
+    min: 0.01
+  directionalShadowFallbackIntensity:
+    m_OverrideState: 0
+    m_Value: 1
+    min: 0
+    max: 1
+--- !u!114 &5391427802203003660
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d877a03bef431a847adca8ab343db3e1, type: 3}
+  m_Name: RayTracingSettings
+  m_EditorClassIdentifier: 
+  active: 1
+  m_AdvancedMode: 0
+  rayBias:
+    m_OverrideState: 0
+    m_Value: 0.001
+    min: 0
+    max: 0.1
+  extendShadowCulling:
+    m_OverrideState: 0
+    m_Value: 0
+  extendCameraCulling:
+    m_OverrideState: 0
+    m_Value: 0
+  directionalShadowRayLength:
+    m_OverrideState: 0
+    m_Value: 1000
+    min: 0.01
+  directionalShadowFallbackIntensity:
+    m_OverrideState: 0
+    m_Value: 1
+    min: 0
+    max: 1
